@@ -32,7 +32,7 @@ def ressetX():
 
     input("PLEASE READ THIS. THE MODIFICATIONS THIS TOOL MAKES TO YOUR DEVICE CANNOT BE EASILY REVERTED.\nYOU MUST BE ABLE TO UNLOCK YOUR DEVICE AND ACCEPT THE TRUST POPUP TO MODIFY THE RESOLUTION AGAIN.\nWE WILL NOT BE HELD RESPONSIBLE FOR ANY DAMAGES.\nIF YOU DON'T KNOW EXACTLY WHAT YOU'RE DOING, IT IS RECCOMMENDED TO EXIT OUT OF THIS PROGRAM.\n\nPress Enter to apply, or Ctrl+C to exit.")
 
-    perform_restore(backup=backupFiles, reboot=False)
+    perform_restore(backup=backupFiles, reboot=True)
 
 print(r"""
     ______           _____      _  __   __
